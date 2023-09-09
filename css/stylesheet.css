@@ -1,0 +1,48 @@
+body {
+    background-color: lightblue;
+}
+
+#main-quiz-box {
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    box-align: center;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.quiz-option-button {
+    margin: 10px;
+    height: 50px;
+    width: 100px;
+
+}
+
+.answer-button {
+    margin: 10px;
+    height: 50px;
+    width: 100px;
+
+}
+
+#sports-button {}
+
+#music-button {}
+
+#film-button {}
+
+#randon-button {}
+
+#answer-A {}
+
+#answer-B {}
+
+#answer-C {}
+
+#answer-D {}
+
+#name-entry {
+    margin: auto;
+    height: 200px;
+    width: 250px;
+}
