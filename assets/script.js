@@ -1,54 +1,69 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let buttons = document.getElementsByTagName("button");
-
-    for (let button of buttons) {
-        button.addEventListener("click", function ());
-    } )
-})
+    runGame("questions");
+    showQuestion(gameType);
+});
 
 
 
+function showQuestion() {
 
-
-
-function topicSelect() {
 
 }
 
-const sportsQuestion = [
+
+
+
+
+
+function runGame(_questions) {
+
+    if (gameType === "random") {
+        displayrandomQuestions(questions);
+        document.getElementById
+    }
+
+}
+
+function randomQuestions{
+    let questions = [
+        {
+            question: 'Who is the record goal scorer for Newcastle United?',
+            optionOne: 'Alan Shearer',
+            optionTwo: 'Stephane Guivarc\'h',
+            optionThree: 'Boris Johnson',
+            optionFour: 'Sherlock Holmes',
+            correctAnswer: 'Alan Shearer'
+        },
+        {
+            question: 'What year was Pluto killed off as a planet?',
+            optionOne: '1802',
+            optionTwo: '2006',
+            optionThree: '1988',
+            optionFour: '2012',
+            correctAnswer: '2006'
+        }
+
     {
-        Question 1: 'Who is the record goal scorer for Newcastle United?',
-        Answer: [{ text: = 'Alan Shearer', correct: true },
-        { text: = 'Stephane Guivarc\'h', correct: false },
-        { text: = 'Boris Johnson', correct: false },
-        { text: = 'Sherlock Holmes', correct: false }
+            question: 'Who was the drummer for the band Nirvana?',
+            optionOne: 'Phil Collins',
+            optionTwo: 'The Muppet Animal',
+            optionThree: 'Dave Grohl',
+            optionFour: 'Crazy Frog',
+            correctAnswer: 'Dave Grohl'
+        }
+    ];
+};
 
-        ]
 
-function topicSports() {
-        Question1 =
 
-}
-
-function topicMusic() {
-
-    }
-
-function topicFilm() {
-
-    }
-
-function topicRandom() {
-
-    }
 
 function checkCorrectAnswer() {
 
-    }
+}
 
 function correctScore() {
 
-    };
+};
 
 
 
