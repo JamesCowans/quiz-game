@@ -51,6 +51,14 @@ body {
     display: none;
 }
 
+#scores {
+    float: left;
+    font-size: 100px;
+
+
+
+}
+
 #sports-button {}
 
 #music-button {}
