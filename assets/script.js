@@ -19,7 +19,7 @@ function runGame(_questions) {
 
     if (gameType === "random") {
         displayrandomQuestions(questions);
-        document.getElementById
+        document.getElementById;
     }
 
 }
@@ -28,28 +28,31 @@ function randomQuestions{
     let questions = [
         {
             question: 'Who is the record goal scorer for Newcastle United?',
-            optionOne: 'Alan Shearer',
-            optionTwo: 'Stephane Guivarc\'h',
-            optionThree: 'Boris Johnson',
-            optionFour: 'Sherlock Holmes',
-            correctAnswer: 'Alan Shearer'
+            answers: [
+                { option: 'Alan Shearer', answer: true },
+                { option: 'Stephane Guivarc\'h', answer: false },
+                { option: 'Boris Johnson', answer: false }
+                { option: 'Sherlock Holmes', answer: false }
+            ]
+
         },
         {
             question: 'What year was Pluto killed off as a planet?',
-            optionOne: '1802',
-            optionTwo: '2006',
-            optionThree: '1988',
-            optionFour: '2012',
-            correctAnswer: '2006'
+            answers: [
+                { optio: '1802', answer: false }
+                { option: '2006', answer: true }
+                { option: '1988', answer: false }
+                { option: '2012', answer: false }
+            
         }
 
     {
             question: 'Who was the drummer for the band Nirvana?',
-            optionOne: 'Phil Collins',
-            optionTwo: 'The Muppet Animal',
-            optionThree: 'Dave Grohl',
-            optionFour: 'Crazy Frog',
-            correctAnswer: 'Dave Grohl'
+            { option: 'Phil Collins', answer: false }
+            { option: 'The Muppet Animal', answer: false }
+            { option: 'Dave Grohl', answer: true }
+            { option 'Crazy Frog', answer: false }
+            
         }
     ];
 };

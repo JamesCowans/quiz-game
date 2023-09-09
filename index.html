@@ -13,25 +13,28 @@
     <div id="main-quiz-box">
 
 
-        <div id="quiz-options"> 
-            <button id="sports-button" class="quiz-option-button">Sports</button>
-            <button id="music-button" class="quiz-option-button">Music</button>
-            <button id="film-button" class="quiz-option-button">Films</button>
-            <button id="random-button" class="quiz-option-button">Random</button>
+        
 
-        </div>
-        <div id="questions" class="hidden">
+       
+        <div id="questions-box">
+            <div id="questions"></div>
             Actual Questions to answer
         </div>
         <div id="answer-box" class="button-container" >
-            <button id="answer-A" class="answer-button">A</button>
-            <button id="answer-B" class="answer-button">B</button>
-            <button id="answer-C" class="answer-button">C</button>
-            <button id="answer-D" class="answer-button">D</button>
+            <button class="btn btn-answer" id="True">True</button>
+            <button class="btn btn-answer" id="False">False</button>
+          
         </div>
      
         <div id="scores" >
-            Score:
+            <div id="user-score">
+                <p>Score</p>
+                <span id="current-score">0</span>
+                <span id="total-score"> /10</span>
+            </div>
+        </div>
+        <div id="controls">
+            <button class="btn btn sumbit" id="submit">Sumbit</button>
         </div>
 </body>
 
