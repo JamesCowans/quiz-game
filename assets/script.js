@@ -1,18 +1,22 @@
-document.addEventListener("DOMContentLoaded", function () {
-    runGame("questions");
-    showQuestion(gameType);
-});
+const trueBtn = document.getElementById('True');
+const falseBtn = document.getElementById('False');
+const nextBtn = document.getElementById('next-question');
+const submitBtn = document.getElementById('submit');
+const questionArea = document.getElementById('questions');
+const scoreArea = document.getElementById('scores');
+const startBtn = document.getElementById('startQuiz');
+
+submitBtn.addEventListener('click', submit);
+nextBtn.addEventListener('click', next);
+startQuiz = addEventListener('click', start) = startMyQuiz;
 
 
+function startMyQuiz() {
+    console.log("hello");
 
-function showQuestion() {
 
 
 }
-
-
-
-
 
 
 function runGame(_questions) {

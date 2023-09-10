@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Fun Quiz</title>
     <link rel="stylesheet" href="/css/stylesheet.css" />
+    <script type="text/javascript" src="assets/js.script.js"></script>
 </head>
 
 <body>
@@ -16,25 +17,32 @@
         
 
        
-        <div id="questions-box">
+        <div id="questions-box" class="hidden">
             <div id="questions"></div>
             Actual Questions to answer
         </div>
-        <div id="answer-box" class="button-container" >
+        <div id="answer-box" class="button-container hidden" >
             <button class="btn btn-answer" id="True">True</button>
             <button class="btn btn-answer" id="False">False</button>
           
         </div>
      
-        <div id="scores" >
+        <div id="scores" class="hidden">
             <div id="user-score">
                 <p>Score</p>
                 <span id="current-score">0</span>
                 <span id="total-score"> /10</span>
             </div>
         </div>
-        <div id="controls">
-            <button class="btn btn sumbit" id="submit">Sumbit</button>
+        <div id="controls" class="hidden">
+            <button class="btn btn sumbit" id="submit">Submit</button>
+            <button class="btn btn next" id="next-question">Next Question</button>
+            
+           
+            
+        </div>
+        <div id="start">
+            <button class="btn btn start" id="startQuiz">Start Quiz</button>
         </div>
 </body>
 
